@@ -1,0 +1,34 @@
+.venv/
+.venv*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Raw data and generated artefacts can be large or private.
+data/raw/videos/*
+!data/raw/videos/.gitkeep
+data/images/*
+!data/images/.gitkeep
+data/frames/clahe/*
+!data/frames/clahe/.gitkeep
+data/frames/edges/*
+!data/frames/edges/.gitkeep
+data/labels/*
+!data/labels/.gitkeep
+outputs/*
+!outputs/.gitkeep
+models/*
+!models/.gitkeep
+*.pt
+
+# Uploaded videos and their local catalogue.
+data/video-*/
+data/catalog.sqlite
+data/.uploading-*
+reports/*.csv
+
+
+
+

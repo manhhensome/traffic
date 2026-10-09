@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "seed": 42,
+  "strategy": "grouped_by_recording_session_60_20_20",
+  "videos": {
+    "1": "train"
+  }
+}

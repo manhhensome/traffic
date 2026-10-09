@@ -1,0 +1,14 @@
+method: yolo
+model_path: models/yolov8n.pt
+device: cpu
+confidence: 0.35
+image_size: 640
+frame_stride: 5
+max_seconds: 0
+use_clahe: false
+clahe_clip_limit: 2.0
+medium_threshold: 0.12
+high_threshold: 0.28
+hysteresis_margin: 0.02
+mog2_warmup_seconds: 2.0
+
